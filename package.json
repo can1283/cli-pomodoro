@@ -1,0 +1,17 @@
+{
+  "name": "cli-pomodoro-app",
+  "version": "1.0.9",
+  "description": "CLI Pomodoro Timer with sound notifications",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "pomodoro": "index.js"
+  },
+  "author": "can1283",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "node-notifier": "10.0.1"
+  }
+}
